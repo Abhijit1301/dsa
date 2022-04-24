@@ -7,7 +7,7 @@ long long getFibonacci(int n) {
     if (1 == n) {
         return 1;
     }
-    // This will take a very long time.
+    // This recursive method will take a very long time for n = 45 or more.
     return getFibonacci(n - 1) + getFibonacci(n - 2);
 }
 
